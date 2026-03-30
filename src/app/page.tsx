@@ -176,7 +176,7 @@ export default function LandingPage() {
           name: "Sarah Miller",
           handle: "@smiller",
           testimonial: "Incredible eye for detail! Made the shoot so comfortable.",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-young-woman_23-2147823623.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-young-woman_23-2147823623.jpg?_wi=1",
         },
         {
           id: "t2",
@@ -204,7 +204,7 @@ export default function LandingPage() {
           name: "Mark Roberts",
           handle: "@mroberts",
           testimonial: "The best investment for our company branding.",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-young-woman_23-2147823623.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-young-woman_23-2147823623.jpg?_wi=2",
         },
       ]}
       title="Words From Our Clients"
