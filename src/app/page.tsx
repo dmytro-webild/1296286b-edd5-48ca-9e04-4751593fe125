@@ -101,6 +101,7 @@ export default function LandingPage() {
       title="Photography Rates"
       description="Transparent and fair pricing for all your photography needs."
       textboxLayout="default"
+      useInvertedBackground={false}
       plans={[
         { id: "1", tag: "Standard", price: "$25", period: "per person", description: "Perfect for individual headshots or quick portraits.", button: { text: "Select Plan", href: "#contact" }, featuresTitle: "Includes:", features: ["High-res files", "Quick delivery"] },
         { id: "2", tag: "Group", price: "$60", period: "for 5 people", description: "Great for small groups, friends, or couples.", button: { text: "Select Plan", href: "#contact" }, featuresTitle: "Includes:", features: ["Up to 5 people", "Group posing guide"] },
