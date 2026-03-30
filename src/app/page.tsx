@@ -124,7 +124,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       testimonials={[
         {
-          id: "t1",          name: "Sarah Miller",          handle: "@smiller",          testimonial: "Incredible eye for detail! Made the shoot so comfortable.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-young-woman_23-2147823623.jpg"},
+          id: "t1",          name: "Sarah Miller",          handle: "@smiller",          testimonial: "Incredible eye for detail! Made the shoot so comfortable.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-young-woman_23-2147823623.jpg?_wi=1"},
         {
           id: "t2",          name: "James & Emma",          handle: "@jemwedding",          testimonial: "Our wedding photos were beyond perfect. Memories for a lifetime.",          imageSrc: "http://img.b2bpic.net/free-photo/woman-girl-hair-natural-people_1157-3724.jpg"},
         {
@@ -132,7 +132,7 @@ export default function LandingPage() {
         {
           id: "t4",          name: "Chloe Vance",          handle: "@cvance",          testimonial: "GOProductions truly captured my personality in the editorial shoot.",          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-female-friends-sitting-together-using-tablet-discussing-clothes-purchases-fashion-store-copy-space-consumerism-shopping-concept_74855-11590.jpg"},
         {
-          id: "t5",          name: "Mark Roberts",          handle: "@mroberts",          testimonial: "The best investment for our company branding.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-young-woman_23-2147823623.jpg"},
+          id: "t5",          name: "Mark Roberts",          handle: "@mroberts",          testimonial: "The best investment for our company branding.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-young-woman_23-2147823623.jpg?_wi=2"},
       ]}
       title="Words From Our Clients"
       description="See why our clients choose GOProductions for their photography needs."
