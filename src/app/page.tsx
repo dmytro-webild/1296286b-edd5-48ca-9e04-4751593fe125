@@ -135,7 +135,7 @@ export default function LandingPage() {
       title="Ready to book your session?"
       description="Have questions? Reach out via phone, email, or Instagram. Let's create something beautiful together."
       buttons={[
-        { text: "Book Your Session Now", href: "#contact" },
+        { text: "Book Your Consultation", href: "#contact" },
       ]}
     />
   </div>
