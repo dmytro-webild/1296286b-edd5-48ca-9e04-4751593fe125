@@ -75,7 +75,7 @@ export default function LandingPage() {
         { title: "High-End Quality", description: "Professional-grade editing and composition." },
         { title: "Reliable Service", description: "Dedicated to timely delivery and excellence." },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/a-professional-portrait-of-a-photographe-1774906900710-03c92337.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/a-professional-portrait-of-a-photographe-1774906900710-03c92337.png?_wi=1"
       mediaAnimation="slide-up"
     />
   </div>
@@ -87,9 +87,9 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", name: "Editorial Fashion", price: "Portraiture", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/artistic-portrait-photography-dramatic-s-1774906900007-0d8151b2.png" },
+        { id: "p1", name: "Editorial Fashion", price: "Portraiture", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/artistic-portrait-photography-dramatic-s-1774906900007-0d8151b2.png?_wi=1" },
         { id: "p2", name: "Nature & Landscape", price: "Editorial", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/stunning-landscape-photograph-capturing--1774906900531-88e6ad02.png" },
-        { id: "p3", name: "Wedding Moments", price: "Event", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/sophisticated-wedding-photography-couple-1774906900235-9bc80d9f.png" },
+        { id: "p3", name: "Wedding Moments", price: "Event", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/sophisticated-wedding-photography-couple-1774906900235-9bc80d9f.png?_wi=1" },
       ]}
       title="Portfolio Highlights"
       description="A curated selection of our best work across various genres."
@@ -117,9 +117,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       testimonials={[
-        { id: "t1", name: "Sarah Miller", handle: "@smiller", testimonial: "Incredible eye for detail! Made the shoot so comfortable.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/a-professional-portrait-of-a-photographe-1774906900710-03c92337.png" },
-        { id: "t2", name: "James & Emma", handle: "@jemwedding", testimonial: "Our wedding photos were beyond perfect. Memories for a lifetime.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/sophisticated-wedding-photography-couple-1774906900235-9bc80d9f.png" },
-        { id: "t3", name: "David Thorne", handle: "@dthorne", testimonial: "Professional, efficient, and exceptionally talented.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/artistic-portrait-photography-dramatic-s-1774906900007-0d8151b2.png" },
+        { id: "t1", name: "Sarah Miller", handle: "@smiller", testimonial: "Incredible eye for detail! Made the shoot so comfortable.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/a-professional-portrait-of-a-photographe-1774906900710-03c92337.png?_wi=2" },
+        { id: "t2", name: "James & Emma", handle: "@jemwedding", testimonial: "Our wedding photos were beyond perfect. Memories for a lifetime.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/sophisticated-wedding-photography-couple-1774906900235-9bc80d9f.png?_wi=2" },
+        { id: "t3", name: "David Thorne", handle: "@dthorne", testimonial: "Professional, efficient, and exceptionally talented.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/artistic-portrait-photography-dramatic-s-1774906900007-0d8151b2.png?_wi=2" },
       ]}
       title="Words From Our Clients"
       description="See why our clients choose GOProductions for their photography needs."
