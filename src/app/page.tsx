@@ -94,8 +94,8 @@ export default function LandingPage() {
         { id: "p7", name: "Custom Gallery D", price: "Gallery", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774974542161-4z8kiuml.jpg" },
         { id: "p8", name: "Custom Gallery E", price: "Gallery", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774974542161-n2xowiqs.jpg" }
       ]}
-      title="Portfolio Highlights"
-      description="A curated selection of our best work across various genres."
+      title="All Uploaded Photos"
+      description="A collection of all images from our recent photography uploads."
     />
   </div>
 
