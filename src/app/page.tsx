@@ -89,10 +89,7 @@ export default function LandingPage() {
         { id: "p2", name: "Nature & Landscape", price: "Landscape", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/stunning-landscape-photograph-capturing--1774906900531-88e6ad02.png" },
         { id: "p3", name: "Wedding Moments", price: "Event", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/sophisticated-wedding-photography-couple-1774906900235-9bc80d9f.png?_wi=1" },
         { id: "p4", name: "Custom Gallery A", price: "Gallery", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774974542160-99dtm9z8.jpg" },
-        { id: "p5", name: "Custom Gallery B", price: "Gallery", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774974542161-irs3wty5.jpg" },
-        { id: "p6", name: "Custom Gallery C", price: "Gallery", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774974542161-1346q9vi.jpg" },
-        { id: "p7", name: "Custom Gallery D", price: "Gallery", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774974542161-4z8kiuml.jpg" },
-        { id: "p8", name: "Custom Gallery E", price: "Gallery", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774974542161-n2xowiqs.jpg" }
+        { id: "p5", name: "Custom Combined Gallery (B, C, D, E)", price: "Gallery", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774974542161-irs3wty5.jpg" }
       ]}
       title="All Uploaded Photos"
       description="A collection of all images from our recent photography uploads."
