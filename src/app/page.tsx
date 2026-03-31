@@ -42,7 +42,7 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroCentered
       background={{ variant: "gradient-bars" }}
-      title="Capturing Moments, Creating Legacies."
+      title="Capture Your Legacy with GOProductions"
       description="Professional photography services by GOProductions. Specializing in high-end portrait, event, and editorial photography."
       avatars={[
         { src: "http://img.b2bpic.net/free-photo/portrait-happy-young-woman_23-2147823623.jpg", alt: "Client 1" },
