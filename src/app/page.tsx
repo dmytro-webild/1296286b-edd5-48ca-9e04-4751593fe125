@@ -6,7 +6,7 @@ import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import HeroCentered from '@/components/sections/hero/HeroCentered';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import ProductCardOne from '@/components/sections/product/ProductCardOne';
+import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import PricingCardFive from '@/components/sections/pricing/PricingCardFive';
 import SplitAbout from '@/components/sections/about/SplitAbout';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
@@ -79,7 +79,7 @@ export default function LandingPage() {
   </div>
 
   <div id="portfolio" data-section="portfolio">
-      <ProductCardOne
+      <ProductCardThree
       animationType="slide-up"
       textboxLayout="default"
       gridVariant="three-columns-all-equal-width"
