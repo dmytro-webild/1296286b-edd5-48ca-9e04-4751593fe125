@@ -6,7 +6,7 @@ import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import HeroCentered from '@/components/sections/hero/HeroCentered';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import ProductCardThree from '@/components/sections/product/ProductCardThree';
+import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import PricingCardFive from '@/components/sections/pricing/PricingCardFive';
 import SplitAbout from '@/components/sections/about/SplitAbout';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
@@ -33,7 +33,6 @@ export default function LandingPage() {
         { name: "About", id: "about" },
         { name: "Portfolio", id: "portfolio" },
         { name: "Pricing", id: "pricing" },
-        { name: "Wedding Rates", id: "wedding-rates" },
         { name: "Contact", id: "contact" },
       ]}
       brandName="GOProductions"
@@ -46,15 +45,16 @@ export default function LandingPage() {
       title="Capturing Moments, Creating Legacies."
       description="Professional photography services by GOProductions. Specializing in high-end portrait, event, and editorial photography."
       avatars={[
-        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774980225879-x9h82h8y.jpg", alt: "Gio Portfolio" },
-        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774980238610-rspg0e8v.jpg", alt: "Fashion Work" },
-        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774980253357-19gfumib.jpg", alt: "Landscape Work" },
-        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/sophisticated-wedding-photography-couple-1774906900235-9bc80d9f.png", alt: "Event Work" },
-        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774980225879-x9h82h8y.jpg", alt: "Gio Work" },
+        { src: "http://img.b2bpic.net/free-photo/portrait-happy-young-woman_23-2147823623.jpg", alt: "Client 1" },
+        { src: "http://img.b2bpic.net/free-photo/woman-girl-hair-natural-people_1157-3724.jpg", alt: "Client 2" },
+        { src: "http://img.b2bpic.net/free-photo/portrait-male-dressed-stylish-blue-suit-grey-background_613910-13647.jpg", alt: "Client 3" },
+        { src: "http://img.b2bpic.net/free-photo/cheerful-female-friends-sitting-together-using-tablet-discussing-clothes-purchases-fashion-store-copy-space-consumerism-shopping-concept_74855-11590.jpg", alt: "Client 4" },
+        { src: "http://img.b2bpic.net/free-photo/portrait-happy-young-woman_23-2147823623.jpg", alt: "Client 5" },
       ]}
-      avatarText="Personal Portfolio Collection"
+      avatarText="Trusted by 500+ happy clients"
       buttons={[{ text: "Book Your Session", href: "#contact" }]}
       marqueeItems={[
+        { type: "text", text: "Portraiture" },
         { type: "text", text: "Editorial" },
         { type: "text", text: "Events" },
         { type: "text", text: "Landscape" },
@@ -74,26 +74,24 @@ export default function LandingPage() {
         { title: "High-End Quality", description: "Professional-grade editing and composition." },
         { title: "Reliable Service", description: "Dedicated to timely delivery and excellence." },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774980204859-5egrm43v.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/a-professional-portrait-of-a-photographe-1774906900710-03c92337.png"
       mediaAnimation="slide-up"
     />
   </div>
 
   <div id="portfolio" data-section="portfolio">
-      <ProductCardThree
+      <ProductCardOne
       animationType="slide-up"
       textboxLayout="default"
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", name: "Editorial Fashion", price: "From $150", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774975239755-q6ct0a1f.jpg" },
-        { id: "p2", name: "Nature & Landscape", price: "Inquire for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774975276418-agza303r.jpg" },
-        { id: "p3", name: "Wedding Moments", price: "From $300", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/sophisticated-wedding-photography-couple-1774906900235-9bc80d9f.png?_wi=1" },
-        { id: "p4", name: "Custom Gallery A", price: "Inquire for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774974542160-99dtm9z8.jpg" },
-        { id: "p5", name: "Custom Combined Gallery (B, C, D, E)", price: "Inquire for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774974542161-irs3wty5.jpg" }
+        { id: "p1", name: "Editorial Fashion", price: "Portraiture", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/artistic-portrait-photography-dramatic-s-1774906900007-0d8151b2.png" },
+        { id: "p2", name: "Nature & Landscape", price: "Editorial", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/stunning-landscape-photograph-capturing--1774906900531-88e6ad02.png" },
+        { id: "p3", name: "Wedding Moments", price: "Event", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/sophisticated-wedding-photography-couple-1774906900235-9bc80d9f.png" },
       ]}
-      title="All Uploaded Photos"
-      description="A collection of all images from our recent photography uploads."
+      title="Portfolio Highlights"
+      description="A curated selection of our best work across various genres."
     />
   </div>
 
@@ -105,22 +103,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       plans={[
-        { id: "1", tag: "Standard", price: "$25", period: "per person", description: "Perfect for individual headshots or quick sessions.", button: { text: "Select Plan", href: "#contact" }, featuresTitle: "Includes:", features: ["High-res files", "Quick delivery"] },
+        { id: "1", tag: "Standard", price: "$25", period: "per person", description: "Perfect for individual headshots or quick portraits.", button: { text: "Select Plan", href: "#contact" }, featuresTitle: "Includes:", features: ["High-res files", "Quick delivery"] },
         { id: "2", tag: "Group", price: "$60", period: "for 5 people", description: "Great for small groups, friends, or couples.", button: { text: "Select Plan", href: "#contact" }, featuresTitle: "Includes:", features: ["Up to 5 people", "Group posing guide"] },
         { id: "3", tag: "Team", price: "$125", period: "whole team", description: "Ideal for corporate branding and large group photos.", button: { text: "Select Plan", href: "#contact" }, featuresTitle: "Includes:", features: ["Full team session", "Professional editing"] },
-      ]}
-    />
-  </div>
-
-  <div id="wedding-rates" data-section="wedding-rates">
-    <PricingCardFive
-      animationType="slide-up"
-      title="Wedding Special"
-      description="Our dedicated wedding package."
-      textboxLayout="default"
-      useInvertedBackground={true}
-      plans={[
-        { id: "w1", tag: "Exclusive", price: "$300", period: "flat rate", description: "Whole wedding coverage including all high-resolution digital files.", button: { text: "Book Now", href: "#contact" }, featuresTitle: "Package Includes:", features: ["Full day coverage", "Professional editing", "Digital delivery"] }
       ]}
     />
   </div>
@@ -131,9 +116,11 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       testimonials={[
-        { id: "t1", name: "Sarah Miller", handle: "@smiller", testimonial: "Incredible eye for detail! Made the shoot so comfortable.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/a-professional-portrait-of-a-photographe-1774906900710-03c92337.png?_wi=2" },
-        { id: "t2", name: "James & Emma", handle: "@jemwedding", testimonial: "Our wedding photos were beyond perfect. Memories for a lifetime.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/sophisticated-wedding-photography-couple-1774906900235-9bc80d9f.png?_wi=2" },
-        { id: "t3", name: "David Thorne", handle: "@dthorne", testimonial: "Professional, efficient, and exceptionally talented.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/artistic-portrait-photography-dramatic-s-1774906900007-0d8151b2.png?_wi=2" },
+        { id: "t1", name: "Sarah Miller", handle: "@smiller", testimonial: "Incredible eye for detail! Made the shoot so comfortable.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-young-woman_23-2147823623.jpg?_wi=1" },
+        { id: "t2", name: "James & Emma", handle: "@jemwedding", testimonial: "Our wedding photos were beyond perfect. Memories for a lifetime.", imageSrc: "http://img.b2bpic.net/free-photo/woman-girl-hair-natural-people_1157-3724.jpg" },
+        { id: "t3", name: "David Thorne", handle: "@dthorne", testimonial: "Professional, efficient, and exceptionally talented.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-male-dressed-stylish-blue-suit-grey-background_613910-13647.jpg" },
+        { id: "t4", name: "Chloe Vance", handle: "@cvance", testimonial: "GOProductions truly captured my personality in the editorial shoot.", imageSrc: "http://img.b2bpic.net/free-photo/cheerful-female-friends-sitting-together-using-tablet-discussing-clothes-purchases-fashion-store-copy-space-consumerism-shopping-concept_74855-11590.jpg" },
+        { id: "t5", name: "Mark Roberts", handle: "@mroberts", testimonial: "The best investment for our company branding.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-young-woman_23-2147823623.jpg?_wi=2" },
       ]}
       title="Words From Our Clients"
       description="See why our clients choose GOProductions for their photography needs."
@@ -148,9 +135,7 @@ export default function LandingPage() {
       title="Ready to book your session?"
       description="Have questions? Reach out via phone, email, or Instagram. Let's create something beautiful together."
       buttons={[
-        { text: "Call 872-225-6752", href: "tel:8722256752" },
-        { text: "Email giopori@icloud.com", href: "mailto:giopori@icloud.com" },
-        { text: "Follow @gioprodz", href: "https://instagram.com/gioprodz" },
+        { text: "Book Your Session Now", href: "#booking-flow" },
       ]}
     />
   </div>
