@@ -33,6 +33,7 @@ export default function LandingPage() {
         { name: "About", id: "about" },
         { name: "Portfolio", id: "portfolio" },
         { name: "Pricing", id: "pricing" },
+        { name: "Wedding Rates", id: "wedding-rates" },
         { name: "Contact", id: "contact" },
       ]}
       brandName="GOProductions"
@@ -85,11 +86,11 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", name: "Editorial Fashion", price: "Editorial", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774975239755-q6ct0a1f.jpg" },
-        { id: "p2", name: "Nature & Landscape", price: "Landscape", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774975276418-agza303r.jpg" },
-        { id: "p3", name: "Wedding Moments", price: "Event", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/sophisticated-wedding-photography-couple-1774906900235-9bc80d9f.png?_wi=1" },
-        { id: "p4", name: "Custom Gallery A", price: "Gallery", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774974542160-99dtm9z8.jpg" },
-        { id: "p5", name: "Custom Combined Gallery (B, C, D, E)", price: "Gallery", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774974542161-irs3wty5.jpg" }
+        { id: "p1", name: "Editorial Fashion", price: "From $150", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774975239755-q6ct0a1f.jpg" },
+        { id: "p2", name: "Nature & Landscape", price: "Inquire for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774975276418-agza303r.jpg" },
+        { id: "p3", name: "Wedding Moments", price: "From $300", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/sophisticated-wedding-photography-couple-1774906900235-9bc80d9f.png?_wi=1" },
+        { id: "p4", name: "Custom Gallery A", price: "Inquire for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774974542160-99dtm9z8.jpg" },
+        { id: "p5", name: "Custom Combined Gallery (B, C, D, E)", price: "Inquire for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774974542161-irs3wty5.jpg" }
       ]}
       title="All Uploaded Photos"
       description="A collection of all images from our recent photography uploads."
@@ -107,6 +108,19 @@ export default function LandingPage() {
         { id: "1", tag: "Standard", price: "$25", period: "per person", description: "Perfect for individual headshots or quick sessions.", button: { text: "Select Plan", href: "#contact" }, featuresTitle: "Includes:", features: ["High-res files", "Quick delivery"] },
         { id: "2", tag: "Group", price: "$60", period: "for 5 people", description: "Great for small groups, friends, or couples.", button: { text: "Select Plan", href: "#contact" }, featuresTitle: "Includes:", features: ["Up to 5 people", "Group posing guide"] },
         { id: "3", tag: "Team", price: "$125", period: "whole team", description: "Ideal for corporate branding and large group photos.", button: { text: "Select Plan", href: "#contact" }, featuresTitle: "Includes:", features: ["Full team session", "Professional editing"] },
+      ]}
+    />
+  </div>
+
+  <div id="wedding-rates" data-section="wedding-rates">
+    <PricingCardFive
+      animationType="slide-up"
+      title="Wedding Special"
+      description="Our dedicated wedding package."
+      textboxLayout="default"
+      useInvertedBackground={true}
+      plans={[
+        { id: "w1", tag: "Exclusive", price: "$300", period: "flat rate", description: "Whole wedding coverage including all high-resolution digital files.", button: { text: "Book Now", href: "#contact" }, featuresTitle: "Package Includes:", features: ["Full day coverage", "Professional editing", "Digital delivery"] }
       ]}
     />
   </div>
