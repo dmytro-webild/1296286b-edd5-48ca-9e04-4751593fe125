@@ -46,11 +46,11 @@ export default function LandingPage() {
       title="Capturing Moments, Creating Legacies."
       description="Professional photography services by GOProductions. Specializing in high-end portrait, event, and editorial photography."
       avatars={[
-        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/a-professional-portrait-of-a-photographe-1774906900710-03c92337.png", alt: "Gio Portfolio" },
-        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/artistic-portrait-photography-dramatic-s-1774906900007-0d8151b2.png", alt: "Fashion Work" },
-        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/stunning-landscape-photograph-capturing--1774906900531-88e6ad02.png", alt: "Landscape Work" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774980225879-x9h82h8y.jpg", alt: "Gio Portfolio" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774980238610-rspg0e8v.jpg", alt: "Fashion Work" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774980253357-19gfumib.jpg", alt: "Landscape Work" },
         { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/sophisticated-wedding-photography-couple-1774906900235-9bc80d9f.png", alt: "Event Work" },
-        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/a-professional-portrait-of-a-photographe-1774906900710-03c92337.png", alt: "Gio Work" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774980225879-x9h82h8y.jpg", alt: "Gio Work" },
       ]}
       avatarText="Personal Portfolio Collection"
       buttons={[{ text: "Book Your Session", href: "#contact" }]}
@@ -74,7 +74,7 @@ export default function LandingPage() {
         { title: "High-End Quality", description: "Professional-grade editing and composition." },
         { title: "Reliable Service", description: "Dedicated to timely delivery and excellence." },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/a-professional-portrait-of-a-photographe-1774906900710-03c92337.png?_wi=1"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774980204859-5egrm43v.jpg"
       mediaAnimation="slide-up"
     />
   </div>
