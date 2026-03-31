@@ -54,7 +54,6 @@ export default function LandingPage() {
       avatarText="Personal Portfolio Collection"
       buttons={[{ text: "Book Your Session", href: "#contact" }]}
       marqueeItems={[
-        { type: "text", text: "Portraiture" },
         { type: "text", text: "Editorial" },
         { type: "text", text: "Events" },
         { type: "text", text: "Landscape" },
@@ -86,8 +85,8 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", name: "Editorial Fashion", price: "Portraiture", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/artistic-portrait-photography-dramatic-s-1774906900007-0d8151b2.png?_wi=1" },
-        { id: "p2", name: "Nature & Landscape", price: "Editorial", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/stunning-landscape-photograph-capturing--1774906900531-88e6ad02.png" },
+        { id: "p1", name: "Editorial Fashion", price: "Editorial", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/artistic-portrait-photography-dramatic-s-1774906900007-0d8151b2.png?_wi=1" },
+        { id: "p2", name: "Nature & Landscape", price: "Landscape", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/stunning-landscape-photograph-capturing--1774906900531-88e6ad02.png" },
         { id: "p3", name: "Wedding Moments", price: "Event", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/sophisticated-wedding-photography-couple-1774906900235-9bc80d9f.png?_wi=1" },
         { id: "p4", name: "Custom Gallery A", price: "Gallery", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774974542160-99dtm9z8.jpg" },
         { id: "p5", name: "Custom Gallery B", price: "Gallery", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgNfTgb57N5yOQvfkZDmuue23c/uploaded-1774974542161-irs3wty5.jpg" },
@@ -108,7 +107,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       plans={[
-        { id: "1", tag: "Standard", price: "$25", period: "per person", description: "Perfect for individual headshots or quick portraits.", button: { text: "Select Plan", href: "#contact" }, featuresTitle: "Includes:", features: ["High-res files", "Quick delivery"] },
+        { id: "1", tag: "Standard", price: "$25", period: "per person", description: "Perfect for individual headshots or quick sessions.", button: { text: "Select Plan", href: "#contact" }, featuresTitle: "Includes:", features: ["High-res files", "Quick delivery"] },
         { id: "2", tag: "Group", price: "$60", period: "for 5 people", description: "Great for small groups, friends, or couples.", button: { text: "Select Plan", href: "#contact" }, featuresTitle: "Includes:", features: ["Up to 5 people", "Group posing guide"] },
         { id: "3", tag: "Team", price: "$125", period: "whole team", description: "Ideal for corporate branding and large group photos.", button: { text: "Select Plan", href: "#contact" }, featuresTitle: "Includes:", features: ["Full team session", "Professional editing"] },
       ]}
